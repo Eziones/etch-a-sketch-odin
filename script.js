@@ -17,7 +17,10 @@ const generateGrid = (sideSize) => {
     square.style.height = (CONTAINER_SIZE / sideSize) + "px"
 
     square.addEventListener('mouseover', () => {
-      square.style.backgroundColor = 'red'
+      const red = Math.floor(Math.random() * 255)
+      const green = Math.floor(Math.random() * 255)
+      const blue = Math.floor(Math.random() * 255)
+      square.style.backgroundColor = `rgb(${red}, ${green}, ${blue})`
     })
 
     container.appendChild(square)
