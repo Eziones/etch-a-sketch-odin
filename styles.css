@@ -30,7 +30,7 @@ div.square {
   outline: 1px solid black;
 }
 
-button.size-button {
+button {
   margin-bottom: 32px;
   font-size: 24px;
   padding: 8px 12px;
