@@ -1,0 +1,37 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  height: 100vh;
+  overflow: hidden;
+  text-align: center;
+}
+
+h1 {
+  text-align: center;
+  font-size: 48px;
+}
+
+div#container {
+  margin: 0 auto;
+  display: flex;
+  width: 960px;
+  /* border-left: 1px solid black;
+  border-top: 1px solid black; */
+
+  flex-wrap: wrap;
+}
+
+div.square {
+  /* border-bottom: 1px solid black;
+  border-right: 1px solid black; */
+  outline: 1px solid black;
+}
+
+button.size-button {
+  margin-bottom: 32px;
+  font-size: 24px;
+  padding: 8px 12px;
+}
