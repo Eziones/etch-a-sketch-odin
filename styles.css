@@ -18,16 +18,10 @@ div#container {
   margin: 0 auto;
   display: flex;
   width: 960px;
-  /* border-left: 1px solid black;
-  border-top: 1px solid black; */
+  height: 960px;
+  border: 2px solid black;
 
   flex-wrap: wrap;
-}
-
-div.square {
-  /* border-bottom: 1px solid black;
-  border-right: 1px solid black; */
-  outline: 1px solid black;
 }
 
 button {
